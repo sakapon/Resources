@@ -1,0 +1,93 @@
+﻿/*
+* TileButton.js 1.1.39
+* Copyright © 2012, Keiho Sakapon.
+*
+* Prerequisites:
+*     jQuery 1.7.2 (or later)
+*     KLibrary.js 1.1.39
+*/
+
+.tile-text, .tile-image, .tile-body-color, .tile-accent-color
+{
+    background-color: #1BA1E2;
+    border-style: solid;
+    border-width: 0px;
+    display: inline;
+    float: left;
+    cursor: pointer;
+    margin: 4px;
+}
+.tile-text
+{
+    font-family: "Segoe UI" , メイリオ, Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 8px 0px;
+    width: 128px;
+    height: 36px;
+}
+a.tile-text, div.tile-text
+{
+    width: 128px;
+    height: 20px;
+}
+.tile-image
+{
+    padding: 0px;
+    width: 48px;
+    height: 48px;
+}
+.tile-body-color, .tile-accent-color
+{
+    padding: 0px;
+    width: 36px;
+    height: 36px;
+}
+.tile-text[disabled], .tile-image[disabled], .tile-body-color[disabled], .tile-accent-color[disabled]
+{
+    background-color: #AAA;
+    cursor: default;
+}
+.tile-text-pressed
+{
+    font-size: 15px;
+    line-height: 19px;
+    border-width: 3px 3px 0px 3px;
+    padding: 7px 0px;
+}
+a.tile-text-pressed, div.tile-text-pressed
+{
+    width: 122px;
+    height: 19px;
+}
+.tile-image-pressed
+{
+    border-width: 5px 2px 0px 2px;
+    width: 44px;
+    height: 43px;
+}
+.tile-body-color-pressed, .tile-accent-color-pressed
+{
+    border-width: 3px 1px 0px 1px;
+}
+.accent-fore-color
+{
+    color: #1BA1E2;
+}
+.accent-back-color
+{
+    background-color: #1BA1E2;
+}
+.accent-border-color
+{
+    border-color: #1BA1E2;
+}
+::selection
+{
+    color: #FFF;
+}
